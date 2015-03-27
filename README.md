@@ -1,7 +1,7 @@
 yii2-multilevel-vertical-menu
 =============================
 
-This extension consists of a multilevel vertical menu. It is based on the SMenu extension. The CSS code has been taken from this page: [http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/](http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/ "http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/")This extension consists of a multilevel vertical menu. It is based on the SMenu extension. The CSS code has been taken from this page: [http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/](http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/ "http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/")
+This extension consists of a multilevel vertical menu. It is based on the SMenu extension. The CSS code has been taken from this page: [http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/](http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/ "http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/")
 
 ## Demo
 
