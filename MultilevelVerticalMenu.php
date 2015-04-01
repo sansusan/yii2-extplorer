@@ -16,9 +16,9 @@ use yii\base\InvalidConfigException;
 use yii\base\Widget;
 
 /**
- * A multilevel vertical menu extension
+ * A multilevel vertical menu extension. SMenu based.
  * 
- * @see https://github.com/sydcanem/bootstrap-contextmenu
+ * @see https://github.com/host33/yii2-multilevel-vertical-menu
  * @author Marc Oliveras Galvez <moginn@gmail.com> http://www.ho33.com
  * @link http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu
  * @since 1.0
@@ -87,6 +87,7 @@ class MultilevelVerticalMenu extends Widget {
 		$resources = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'assets';
 		$this -> _baseUrl = Yii::$app->getAssetManager()->publish($resources);
 		$this->getView()->registerJsFile($this -> _baseUrl[1] . '/jquery.dlmenu.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
+		$this->getView()->registerJsFile($this -> _baseUrl[1] . '/modernizr.custom.js', ['position' => View::POS_HEAD]);
 		$this->getView()->registerJs('
 	    $(\'#dl-menu\').dlmenu({
 	        animationClasses : { classin : \'dl-animate-in-' . $this -> transition . '\', classout : \'dl-animate-out-' . $this -> transition . '\' }
@@ -99,8 +100,7 @@ class MultilevelVerticalMenu extends Widget {
 	 * Creates the html markup needed by the widget
 	 */
 	public function createMarkUp() {
-		$this -> _html = '<script src="' . $this -> _baseUrl[1] . '/modernizr.custom.js"></script>';
-		$this -> _html .= '<div class="dl-container"><div id="dl-menu" class="dl-menuwrapper">';
+		$this -> _html = '<div class="dl-container"><div id="dl-menu" class="dl-menuwrapper">';
 		$this -> _html .= '<ul class="dl-menu">';
 		$this -> _createMenu($this -> _menu);
 		$this -> _html .= '</ul>';
