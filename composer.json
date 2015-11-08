@@ -1,15 +1,15 @@
 {
-    "name": "host33/yii2-multilevel-vertical-menu",
-    "description": "This extension consists of a multilevel vertical menu.",
-    "keywords": ["yii2", "extension", "widget", "vertical menu", "menu"],
-    "homepage": "https://github.com/host33/yii2-multilevel-vertical-menu",
+    "name": "ho96/yii2-phpfreechat",
+    "description": "Extension that is a wrapper of the PHP free chat.",
+    "keywords": ["chat", "phpfreechat", "widget"],
+    "homepage": "https://github.com/ho96/yii2-phpfreechat",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
         {
             "name": "Marc Oliveras Galvez",
             "email": "moginn@gmail.com",
-            "homepage": "http://www.ho33.com/"
+            "homepage": "http://www.ho96.com"
         }
     ],
     "minimum-stability": "stable",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "host33\\multilevelverticalmenu\\": ""
+            "ho96\\phpfreechat\\": ""
         }
     }
 }
