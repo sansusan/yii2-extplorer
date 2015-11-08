@@ -1,8 +1,8 @@
 {
-    "name": "ho96/yii2-phpfreechat",
-    "description": "Extension that is a wrapper of the PHP free chat.",
-    "keywords": ["chat", "phpfreechat", "widget"],
-    "homepage": "https://github.com/ho96/yii2-phpfreechat",
+    "name": "ho96/yii2-extplorer",
+    "description": "Extension that is a wrapper of the Extplorer.",
+    "keywords": ["extplorer", "file manager"],
+    "homepage": "https://github.com/ho96/yii2-extplorer",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ho96\\phpfreechat\\": ""
+            "ho96\\extplorer\\": ""
         }
     }
 }
