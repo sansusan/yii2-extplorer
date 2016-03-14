@@ -2,14 +2,10 @@
 
 /**
  * Yii2 Extplorer
- *
- * @author Marc Oliveras Galvez <moginn@gmail.com> 
- * @link http://www.ho96.com
- * @copyright 2015 Hosting 96
  * @license New BSD License
  */
 
-namespace ho96\extplorer;
+namespace sansusan\extplorer;
 
 use Yii;
 use yii\web\View;
