@@ -3,6 +3,7 @@
 /**
  * Yii2 Extplorer
  * @license New BSD License
+ *
  */
 
 namespace sansusan\extplorer;
