@@ -5,7 +5,6 @@ Extension that is a wrapper of the Extplorer.
 
 ## Demo
 
-[http://yiimarket.ho96.com/extplorer](http://yiimarket.ho96.com/extplorer "http://yiimarket.ho96.com/extplorer")
 
 ## Installation
 
@@ -14,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-$ php composer.phar require ho96/yii2-extplorer "dev-master"
+$ php composer.phar require sansusan/yii2-extplorer "dev-master"
 ```
 
 or add
 
 ```
-"ho96/yii2-extplorer": "dev-master"
+"sansusan/yii2-extplorer": "dev-master"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -28,7 +27,7 @@ to the ```require``` section of your `composer.json` file.
 ## Usage
 
 ```php
-use ho96\extplorer\Extplorer;
+use sansusan\extplorer\Extplorer;
 echo Extplorer::widget();
 ```
 
